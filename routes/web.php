@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function (){
+    return view('home');
+});
+
+Route::get('/contact', function (){
+    return view('layouts/contact');
+});
+
+Route::get('/services', function (){
+    return view('layouts/services');
+});
+
+Route::get('/portfolio', function (){
+    return view('layouts/portfolio');
+});
+
+Route::get('/testimonial', function (){
+    return view('layouts/testimonial');
 });
