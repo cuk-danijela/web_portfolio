@@ -46,9 +46,9 @@
                         <div class="col-xs-12">
                             <ul class="scoialinks">
                                 <li class="normal-txt">Find me on</li>
-                                <li class="social-icons"><a class="facebook" href="https://www.facebook.com/dandza18" target="_blank"></a></li>
-                                <li class="social-icons"><a class="linkedin" href="https://www.linkedin.com/in/danijela-cuk-1990/" target="_blank"></a></li>
-                                <li class="social-icons"><a class="github" href="#"></a></li>
+                                <li class="social-icons"><a href="https://www.facebook.com/dandza18" target="_blank"><img class="findMe" src="images/facebook.png"></a></li>
+                                <li class="social-icons"><a href="https://www.linkedin.com/in/danijela-cuk-1990/" target="_blank"><img class="findMe" src="images/linkedin.png"></a></li>
+                                <li class="social-icons"><a href="https://github.com/cuk-danijela" target="_blank"><img class="findMe" src="images/github-sign.png"></a></li>
                             </ul>
                         </div>
                     </div>

@@ -4,20 +4,25 @@
                 <h2 class="block_title">My Works</h2>
                      <div class="row port cs-style-3">
                
-                    <!-- Projects Menu -->
-                   
-                        <div class="portfolio-menu text-center">
-                            <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".human">Human</button>
-                            <button class="btn" data-filter=".nature">Nature</button>
-                            <button class="btn" data-filter=".country">Country</button>
-                            <button class="btn" data-filter=".video">Video</button>
-                        </div>
+                  <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- Project Menu -->
+                    <div id="myBtnContainer" class="works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <ul>
+                            <li class="wow fadeIn active" onclick="filterSelection('all')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-tasks"></i> All Works</li>
+                            <li class="wow fadeIn" onclick="filterSelection('design')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-laptop"></i> WEB DESIGN</li>
+                            <li class="wow fadeIn" onclick="filterSelection('web')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
+                            <li class="wow fadeIn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li>
+                        </ul>
+                    </div>
+                    <!--/ End Project Nav -->
+                </div>
+            </div>
               
               
             </div>
                 <div class="row port cs-style-3">
-                     <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                     <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
                         <figure>
                             <img src="images/portfolio3.jpg" alt="img02">
                             <figcaption>
@@ -27,7 +32,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
                             <img src="images/portfolio4.jpg" alt="img04">
                             <figcaption>
@@ -37,7 +42,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
                         <figure>
                             <img src="images/portfolio5.jpg" alt="img01">
                             <figcaption>
@@ -47,7 +52,7 @@
                             </figcaption> 
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
                         <figure>
                             <img src="images/portfolio6.jpg" alt="img02">
                             <figcaption>
@@ -59,7 +64,7 @@
                     </div>
                 </div>
                     <div class="row port cs-style-3">
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
                             <img src="images/portfolio3.jpg" alt="img02">
                             <figcaption>
@@ -69,7 +74,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
                         <figure>
                             <img src="images/portfolio4.jpg" alt="img04">
                             <figcaption>
@@ -79,7 +84,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
                             <img src="images/portfolio5.jpg" alt="img01">
                             <figcaption>
@@ -89,7 +94,7 @@
                             </figcaption> 
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space">
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
                             <img src="images/portfolio6.jpg" alt="img02">
                             <figcaption>
@@ -100,9 +105,9 @@
                         </figure>
                     </div>
                     
-                    <div class="col-xs-12">
+                    {{-- <div class="col-xs-12">
                         <div class="btn-center"><a href="#" class="big button">View all</a></div>
-                    </div>
+                    </div> --}}
                 </div>
             </div><!-- container -->
         </section><!-- portfolio -->

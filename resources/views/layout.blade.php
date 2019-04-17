@@ -13,6 +13,7 @@
     <!-- Fonts -->
     <link href="{{ asset('font_icon/css/pe-icon-7-stroke.css') }}" rel="stylesheet">
     <link href="{{ asset('font_icon/css/helper.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -28,6 +29,9 @@
 
 <body id="body">
 
+    <!-- Back to top button -->
+    <a id="button"></a>
+
         @yield('content')
 
 <!-- Footer Area -->
@@ -35,7 +39,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <p class="copyright">© Copyright 2019 </p>
+                        <p class="copyright">Copyright ©2019 | All rights reserved 
+</p>
+
                     </div>
                    
                 </div>

@@ -53,7 +53,7 @@ a:hover,a:active,a:focus{
 	outline: none;
 }
 .btn {
-    color: #fff;
+    color: #333;
     background: transparent;
     border: 1px solid #fff;
     border-radius: 0px;
@@ -63,6 +63,35 @@ a:hover,a:active,a:focus{
 .btn:hover {
     background: #fff;
     color: #000;
+}
+.works-menu ul li.active,
+.works-menu ul li:hover {
+    color: #fff;
+    background: #e66f69;
+}
+
+
+.filterDiv {
+    display: none;
+    /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.works-menu ul li {
+    font-size: 15px;
+    color: #333;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    padding: 5px 10px;
+    margin-top: 22px;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease;
 }
 .block_title {
     font-size: 4em;
@@ -422,7 +451,21 @@ header{
 //  07 - Contact
 /////////////////////////////////////////////////////////////////////*/
 
+.findMe {
+	width: 100%;
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;
+}
 
+.findMe:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
 #contact {
     color: #fff;
 }
@@ -566,6 +609,46 @@ footer {
     color: #e66f69;
 }
 
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
 
 
 /* ///////////////////////////////////////////////////////////////////// 
