@@ -9,10 +9,10 @@
                     <!-- Project Menu -->
                     <div id="myBtnContainer" class="works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
                         <ul>
-                            <li class="wow fadeIn active" onclick="filterSelection('all')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-tasks"></i> All Works</li>
-                            <li class="wow fadeIn" onclick="filterSelection('design')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-laptop"></i> WEB DESIGN</li>
-                            <li class="wow fadeIn" onclick="filterSelection('web')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
-                            <li class="wow fadeIn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li>
+                            <li class="wow fadeIn btn active" onclick="filterSelection('all')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-tasks"></i> All Works</li>
+                            <li class="wow fadeIn btn" onclick="filterSelection('design')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-laptop"></i> WEB DESIGN</li>
+                            <li class="wow fadeIn btn" onclick="filterSelection('web')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
+                            <li class="wow fadeIn btn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li>
                         </ul>
                     </div>
                     <!--/ End Project Nav -->

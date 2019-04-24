@@ -244,6 +244,7 @@ header{
     max-width: 293px;
     height: 263px;
 }
+
 .exp{
 	padding-top: 76px;
 }
@@ -259,6 +260,10 @@ header{
     display: block;
     border-radius: 50%;
 }
+.service-wrap:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    border-color: #fff;
+    }
 .service-wrap i {
     margin-top: 40px;
     transition: all 0.3s ease;
@@ -418,11 +423,7 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
-    background: url(../images/parallax.jpg);
-    padding: 80px 0px 80px 0px;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
+margin: 80px 0px 40px 0px;
 }
 
 .testimonila-block {
@@ -609,9 +610,9 @@ footer {
     color: #e66f69;
 }
 
-#button {
+#page_up {
     display: inline-block;
-    background-color: #FF9800;
+    background-color: #e66f69;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -620,36 +621,31 @@ footer {
     bottom: 30px;
     right: 30px;
     transition: background-color .3s,
-        opacity .5s, visibility .5s;
+    opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
 }
 
-#button::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-}
-
-#button:hover {
+#page_up:hover {
     cursor: pointer;
     background-color: #333;
 }
 
-#button:active {
+#page_up:active {
     background-color: #555;
 }
 
-#button.show {
+#page_up.show {
     opacity: 1;
     visibility: visible;
 }
 
+.page_up_arrow{
+    color: white;
+    font-size: 2em;
+    padding-top: 10px;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  09 - Responsive Fixes

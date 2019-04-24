@@ -27,9 +27,9 @@
                                  <div class="arrow-up"></div>
                                  <ul>
                                      <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+                                     <li><a data-scroll href="#testimonial">About me <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
                                      <li><a data-scroll href="#services">Service <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
                                      <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#testimonial">Testimonial <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
                                      <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
                                  </ul>
                              </div>
@@ -40,9 +40,9 @@
             </div>            
         </section>
         
+        @include('layouts/testimonial')
         @include('layouts/services')
         @include('layouts/portfolio')
-        @include('layouts/testimonial')
         @include('layouts/contact')
 
 @endsection

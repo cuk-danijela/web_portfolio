@@ -1,23 +1,16 @@
 <section id="contact" class="mapWrap">
             <div id="contact-area">
                 <div class="container">
-                    <h2 class="block_title">Hey !!!</h2>
+                    <h2 class="block_title">Contact Me</h2>
                     <div class="row">
                         <div class="col-xs-12">
                         </div>
                         <div class="col-sm-6">
                             <div class="moreDetails">
-                                <h2 class="con-title">More about me</h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus doloremque sint ea laboriosam, excepturi iure inventore rerum voluptatibus, suscipit totam, sit necessitatibus. Rerum, blanditiis. </p>
-                                <button type="submit" class="btn medium">Download my CV</button>
-                                <button type="submit" class="btn medium">Contact me</button>
-
-                                <br/><br />
                                 <ul class="address">
                                     <li><i class="pe-7s-map-marker"></i><span>Belgrade, Serbia</span></li>
                                     <li><i class="pe-7s-mail"></i><span>danijela.b.cuk@gmail.com</span></li>
                                     <li><i class="pe-7s-phone"></i><span>+381 62 551 410</span></li>
-                                    <!-- <li><i class="pe-7s-global"></i><span><a href="#">www.themewagon.com</a></span></li> -->
                                 </ul>
                             </div>
                         </div>

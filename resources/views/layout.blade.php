@@ -30,7 +30,7 @@
 <body id="body">
 
     <!-- Back to top button -->
-    <a id="button"></a>
+    <a id="page_up"><i class="fas fa-upload page_up_arrow"></i></a>
 
         @yield('content')
 
