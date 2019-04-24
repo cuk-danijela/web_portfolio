@@ -1,7 +1,23 @@
+
+    $(document).ready(function () {
+
+        jQuery('.skillbar').each(function () {
+            jQuery(this).show(function () {
+                jQuery(this).find('.count-bar').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 3000);
+                var percent = jQuery(this).attr('data-percent');
+                jQuery(this).find('.count').html('<span>' + percent + '</span>');
+            });
+        });
+     });
+
+
+
+
+
 (function($,sr){
 
-  // debouncing function from John Hann
-  // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
   var debounce = function (func, threshold, execAsap) {
       var timeout;
 
