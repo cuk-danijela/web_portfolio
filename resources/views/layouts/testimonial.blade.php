@@ -76,18 +76,21 @@
 				</div> <!-- row -->
 				<hr/>
 <div class="row">
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
-<div class="col-md-1"><img class="tech" src="{{ asset('images/logo/html-5.png') }}" alt="" /></div>
+<div class="col-md-1"><i class="fab fa-5x fa-html5"></i></div><!-- html-->
+<div class="col-md-1"><i class="fab fa-5x fa-css3-alt"></i></div><!-- css-->
+<div class="col-md-1"><i class="fab fa-5x fa-sass"></i></div><!--sass -->
+<div class="col-md-1"><i class="fab fa-5x fa-bootstrap"></i></div><!-- bootstrap-->
+
+<div class="col-md-1"><i class="fab fa-5x fa-js-square"></i></div><!-- js-->
+<div class="col-md-1"><i class="fab fa-5x fa-react"></i></div><!--react -->
+
+<div class="col-md-1"><i class="fab fa-5x fa-php"></i></div><!-- php-->
+<div class="col-md-1"><i class="fas fa-5x fa-database"></i></div><!-- database-->
+<div class="col-md-1"><i class="fab fa-5x fa-git"></i></div><!-- git-->
+<div class="col-md-1"><i class="fab fa-5x fa-adobe"></i></div><!-- photoshop-->
+<div class="col-md-1"><i class="fab fa-5x fa-wordpress"></i></div><!-- wordpress-->
+<div class="col-md-1"><i class="fab fa-5x fa-chrome"></i></div><!-- chrome-->
+
 </div>
 
 
