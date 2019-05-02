@@ -5,8 +5,8 @@
       <!-- Header area -->
         <header id="header">
             <div class="center text-center">
-                <h1 class="bigheadline">Dark Joe</h1>
-                <h4 class="subheadline">The Worst Front End Developer</h4>
+                <h1 class="bigheadline">Danijela Cuk</h1>
+                <h4 class="subheadline">The Front End Developer</h4>
             </div>
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <div class="logo"><a data-scroll href="#body" class="logo-text">Dark Joe</a></div>
+                        <div class="logo"><a data-scroll href="#body" class="logo-text">Danijela Cuk</a></div>
                     </div>
                     <div class="col-xs-6">
                         <div class="nav">

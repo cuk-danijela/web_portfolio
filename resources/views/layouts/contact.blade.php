@@ -1,19 +1,11 @@
-<section id="contact" class="mapWrap">
-            <div id="contact-area">
+<section id="contact">
+            <div id="contact-area" style="background-image:url('images/maps.png'); background-size: cover; background-blend-mode: soft-light; background-repeat: no-repeat;">
                 <div class="container">
                     <h2 class="block_title">Contact Me</h2>
                     <div class="row">
                         <div class="col-xs-12">
                         </div>
-                        <div class="col-sm-6">
-                            <div class="moreDetails">
-                                <ul class="address">
-                                    <li><i class="pe-7s-map-marker"></i><span>Belgrade, Serbia</span></li>
-                                    <li><i class="pe-7s-mail"></i><span>danijela.b.cuk@gmail.com</span></li>
-                                    <li><i class="pe-7s-phone"></i><span>+381 62 551 410</span></li>
-                                </ul>
-                            </div>
-                        </div>
+                      
                         <div class="col-sm-6">
                             <h2 class="con-title">Send me a message</h2>
                             <form role="form">
@@ -29,6 +21,16 @@
 
                               <button type="submit" class="btn medium">Submit</button>
                             </form>   
+                        </div>
+
+                          <div class="col-sm-6">
+                            <div class="moreDetails">
+                                <ul class="address">
+                                    <li><i class="pe-7s-map-marker"></i><span>Belgrade, Serbia</span></li>
+                                    <li><i class="pe-7s-mail"></i><span>danijela.b.cuk@gmail.com</span></li>
+                                    <li><i class="pe-7s-phone"></i><span>+381 62 551 410</span></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div><!-- container -->

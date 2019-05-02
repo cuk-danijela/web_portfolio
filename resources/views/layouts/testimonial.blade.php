@@ -20,7 +20,7 @@
 	</div></a>
         						</div>
         						<div class="col-sm-6">
-        						<a href=""><div class="button">
+        						<a href="#contact"><div class="button">
 		<span><i class="fas fa-download"></i> Contact me</span>
 		<svg>
 		<polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>

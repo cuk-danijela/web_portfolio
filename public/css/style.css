@@ -324,21 +324,20 @@ header{
 	color: #e66f69;
 }
 
-.port figcaption h3 {
-	margin: 0px 0px 8px 0px;
-	padding: 0;
-	color: #fff;
+.port figcaption h4 {
+	margin: 10px 0px;
+	padding-bottom: 10px;
+    color: #fff;
+    border-bottom: 1px dashed lightgray;
 }
 
-.port figcaption span:before {
-	content: 'by ';
-}
 
 .port figcaption a {
 	text-align: center;
 	padding: 8px 15px;
 	display: inline-block;
-	color: #fff;
+    color: #fff;
+    border: 1px solid white;
 }
 
 .cs-style-3 figure {

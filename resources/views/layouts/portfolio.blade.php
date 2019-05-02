@@ -26,9 +26,9 @@
                         <figure>
                             <img src="images/portfolio3.jpg" alt="img02">
                             <figcaption>
-                                <h3>Music</h3>
-                                <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <h4>Cruising Dubrovnik</h4>
+                                <span>Boats, Sailing and Water Tours</span>
+                                <a href="#" class="button">Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
