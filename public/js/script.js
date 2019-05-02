@@ -71,7 +71,7 @@ var $ = jQuery;
   function setHeaderBackground() {    
     var scrollTop = jQuery(window).scrollTop(); // our current vertical position from the top 
     
-    if (scrollTop > 300 || jQuery(window).width() < 700) { 
+    if (scrollTop > 500 || jQuery(window).width() < 900) { 
       jQuery('#header .top').addClass('solid');
     } else {
       jQuery('#header .top').removeClass('solid');    

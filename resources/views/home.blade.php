@@ -4,9 +4,15 @@
 
       <!-- Header area -->
         <header id="header">
-            <div class="center text-center">
+            <div class="">
+            <div class="center text-center col-md-6 no-gutters">
+                <div id="left-block"></div>
                 <h1 class="bigheadline">Danijela Cuk</h1>
                 <h4 class="subheadline">The Front End Developer</h4>
+            </div>
+            <div class="col-md-6 no-gutters">
+                <div id="right-block"></div>
+            </div>
             </div>
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
@@ -18,7 +24,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <div class="logo"><a data-scroll href="#body" class="logo-text">Danijela Cuk</a></div>
+                        <div class="logo"><a data-scroll href="#body" class="logo-text"><code>< Danijela Cuk /></code></a></div>
                     </div>
                     <div class="col-xs-6">
                         <div class="nav">

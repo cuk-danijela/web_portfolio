@@ -124,14 +124,14 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/bg.jpg) no-repeat;
-	background-size: cover;
+	/* background: url(../images/bg.jpg) no-repeat; */
+	/* background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% -50px;
+	background-position: 50% -50px; */
 }
 .center {
     text-align: center;
-    color: #fff;
+    color: #d7c09f;
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
@@ -154,10 +154,15 @@ header{
     left: 49%;
 }
 .scrollDown:hover{
-	color: rgba(255, 255, 255, 0.4);
+	color: rgb(230, 111, 105);
 	transition: 0.4s ease all;
 }
-
+#right-block{
+   background: url(../images/profile-pic.jpg) no-repeat;
+       background-size: cover;
+       background-position: 50% -50px;
+       height: 450px;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  03 - Navigation 
@@ -584,16 +589,6 @@ margin: 80px 0px 40px 0px;
     color: #fff;
 }
 
-.mapWrap {
-    position: relative;
-    min-height: 600px;
-}
-#googleMap {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
 #contact-area {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -771,10 +766,10 @@ footer {
 		font-size: 3em;
 	}
 	.bigheadline {
-		font-size: 15em;
+		font-size: 9em;
 	}
 	.subheadline {
-		font-size: 5em;
+		font-size: 4em;
 	}
 }
 

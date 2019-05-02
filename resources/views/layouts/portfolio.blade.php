@@ -36,9 +36,9 @@
                         <figure>
                             <img src="images/portfolio4.jpg" alt="img04">
                             <figcaption>
-                                <h3>Settings</h3>
-                                <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                 <h4>Fly Design</h4>
+                                <span>My first html page</span>
+                                <a href="#" class="button">Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
