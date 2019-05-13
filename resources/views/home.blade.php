@@ -4,13 +4,14 @@
 
       <!-- Header area -->
         <header id="header">
-            <div class="">
-            <div class="center text-center col-md-6 no-gutters">
-                <div id="left-block"></div>
+            <div class="row no-gutters">
+            <div class="col-md-6" style="height: 700px; position:relative;">
+                <div id="left-block" class="center text-center">
                 <h1 class="bigheadline">Danijela Cuk</h1>
                 <h4 class="subheadline">The Front End Developer</h4>
+                </div>
             </div>
-            <div class="col-md-6 no-gutters">
+            <div class="col-md-6">
                 <div id="right-block"></div>
             </div>
             </div>
