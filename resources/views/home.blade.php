@@ -2,21 +2,14 @@
 
 @section('content')
 
-      <!-- Header area -->
+       <!-- Header area -->
         <header id="header">
-            <div class="row no-gutters">
-            <div class="col-md-6" style="height: 700px; position:relative;">
-                <div id="left-block" class="center text-center">
+            <div class="center text-center">
                 <h1 class="bigheadline">Danijela Cuk</h1>
-                <h4 class="subheadline">The Front End Developer</h4>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div id="right-block"></div>
-            </div>
+                <h4 class="subheadline">Frontend Web Developer</h4>
             </div>
             <div class="bottom">
-                <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+                <a data-scroll href="#navigation" class="scrollDown animated pulse scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
             </div>
         </header>
 

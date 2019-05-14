@@ -24,7 +24,7 @@
                         </div>
 
                           <div class="col-sm-6">
-                            <div class="moreDetails">
+                            <div class="moreDetails form-control">
                                 <ul class="address">
                                     <li><i class="pe-7s-map-marker"></i><span>Belgrade, Serbia</span></li>
                                     <li><i class="pe-7s-mail"></i><span>danijela.b.cuk@gmail.com</span></li>

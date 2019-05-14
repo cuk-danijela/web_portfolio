@@ -11,22 +11,10 @@
 	<br/>  
 	                          
     <div class="col-sm-6">
-        							<a href=""><div class="button">
-		<span><i class="fas fa-download"></i> Download my CV</span>
-		<svg>
-		<polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-		<polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-	</svg>
-	</div></a>
+       <div class="button-border"><button class="button">See my CV</button></div>
         						</div>
         						<div class="col-sm-6">
-        						<a href="#contact"><div class="button">
-		<span><i class="fas fa-download"></i> Contact me</span>
-		<svg>
-		<polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-		<polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-	</svg>
-	</div></a>
+        						<div class="button-border"><a data-scroll href="#contact" class="scrollToContent animated pulse"><button class="button">Contact me</button></a></div>
         						</div>
         					
         					</div>

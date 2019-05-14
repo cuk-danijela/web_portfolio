@@ -124,10 +124,10 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	/* background: url(../images/bg.jpg) no-repeat; */
-	/* background-size: cover;
+	background: url(../images/cool-background.png) no-repeat; 
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% -50px; */
+	background-position: 50% -50px;
 }
 .center {
     text-align: center;
@@ -408,45 +408,46 @@ header{
 	right: 20px;
 }
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+    background-color: #c47135;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
 }
 
-.button svg {
-    height: 55px;
-    width: 150px;
-    fill: none;
-    stroke-width: 5;
-}
-
-.button svg .o1 {
-    stroke: rgba(255, 179, 65, 0.7);
-    fill: #e56f69;
-    transition: all 1s ease-in-out;
-}
-
-.button svg .o2 {
-    stroke: white;
-    stroke-dasharray: 20 420;
-    stroke-dashoffset: 20;
-    transition: all 1s ease-in-out;
-}
-
-.button span {
+.button:before,
+.button:after {
+    border: 0 solid transparent;
+    transition: all 0.25s;
+    content: '';
+    height: 24px;
     position: absolute;
-    margin: auto 0;
-    text-transform: uppercase;
+    width: 24px;
 }
 
-.button:hover .o1 {
-    fill: rgba(204, 129, 16, 0.3);
+.button:before {
+    border-top: 2px solid #c47135;
+    left: 0px;
+    top: -5px;
 }
 
-.button:hover .o2 {
-    stroke-dashoffset: -420;
+.button:after {
+    border-bottom: 2px solid #c47135;
+    bottom: -5px;
+    right: 0px;
 }
+
+.button:hover {
+    background-color: #c47135;
+}
+
+.button:hover:before,
+.button:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
 
 .btn-center {
     display: block;
@@ -766,6 +767,34 @@ footer {
     font-size: 2em;
     padding-top: 10px;
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: red;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background: red;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  09 - Responsive Fixes

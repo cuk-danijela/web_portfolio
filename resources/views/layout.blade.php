@@ -30,7 +30,7 @@
 <body id="body">
 
     <!-- Back to top button -->
-    <a id="page_up"><i class="fas fa-upload page_up_arrow"></i></a>
+    <a data-scroll href="#" class="scrollToContent animated pulse" id="back-to-top" title="Back to top">&uarr;</a>
 
         @yield('content')
 
