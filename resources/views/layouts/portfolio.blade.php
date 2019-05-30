@@ -23,8 +23,7 @@
             </div>
                 <div class="row port cs-style-3">
                      <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
-                        <figure>
-                            <img src="images/portfolio3.jpg" alt="img02">
+                        <figure style="background:url('./images/portfolio/boat.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
                                 <h4>Cruising Dubrovnik</h4>
                                 <span>Boats, Sailing and Water Tours</span>
@@ -33,8 +32,7 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
-                        <figure>
-                            <img src="images/portfolio4.jpg" alt="img04">
+                        <figure style="background:url('./images/portfolio/fly.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
                                  <h4>Fly Design</h4>
                                 <span>My first html page</span>
@@ -43,20 +41,18 @@
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
-                        <figure>
-                            <img src="images/portfolio5.jpg" alt="img01">
+                        <figure style="background:url('./images/portfolio/watch.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
-                                <h3>Camera</h3>
+                                <h4>Watch Shop</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption> 
                         </figure>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
-                        <figure>
-                            <img src="images/portfolio6.jpg" alt="img02">
+                        <figure style="background:url('./images/portfolio/cv.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
-                                <h3>Music</h3>
+                                <h4>Curiculum Vitae</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>
@@ -64,21 +60,19 @@
                     </div>
                 </div>
                     <div class="row port cs-style-3">
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
-                        <figure>
-                            <img src="images/portfolio3.jpg" alt="img02">
+                         <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
+                        <figure style="background:url('./images/portfolio/books.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
-                                <h3>Music</h3>
+                                <h4>Book App</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 item-space design filterDiv">
-                        <figure>
-                            <img src="images/portfolio4.jpg" alt="img04">
+                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
+                        <figure style="background:url('./images/portfolio/burger.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
-                                <h3>Settings</h3>
+                                <h4>Dave's Burgers</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>
@@ -86,9 +80,9 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
-                            <img src="images/portfolio5.jpg" alt="img01">
+                            <img src="images/portfolio/bead.jpg" alt="img01">
                             <figcaption>
-                                <h3>Camera</h3>
+                                <h4>Bead Art</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption> 
@@ -96,9 +90,9 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
-                            <img src="images/portfolio6.jpg" alt="img02">
+                            <img src="images/portfolio/space.jpg" alt="img02">
                             <figcaption>
-                                <h3>Music</h3>
+                                <h4>Amazing Space</h4>
                                 <span>Jacob Cummings</span>
                                 <a href="#" class="button" >Take a look</a>
                             </figcaption>

@@ -358,7 +358,8 @@ header{
 }
 
 .cs-style-3 figure {
-	overflow: hidden;
+    overflow: hidden;
+    height: 204px;
 }
 
 .cs-style-3 figure img {
