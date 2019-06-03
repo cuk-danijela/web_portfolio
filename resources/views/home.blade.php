@@ -26,12 +26,13 @@
                              <div class="dropdown-menu">
                                  <div class="arrow-up"></div>
                                  <ul>
-                                     <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#testimonial">About me <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
-                                     <li><a data-scroll href="#services">Service <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#portfolio">Portfolio <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
-                                 </ul>
+                                    <li><a data-scroll href="#body">Home <i class="fas fa-2x fa-home"></i></a><span class="menu-effect"></span></li>
+        <li><a data-scroll href="#testimonial">About me <i class="fas fa-2x fa-comments"></i><span class="menu-effect"></span></a></li>
+        <li><a data-scroll href="#services">Service <i class="fas fa-2x fa-cogs"></i></a><span class="menu-effect"></span></li>
+        <li><a data-scroll href="#portfolio">Portfolio <i class="fas fa-2x fa-network-wired"></i></a><span class="menu-effect"></span></li>
+        <li><a data-scroll href="#contact">Contact <i class="fas fa-2x fa-file-signature"></i></a><span class="menu-effect"></span></li>
+    
+                                    </ul>
                              </div>
                         </div>
                     </div>

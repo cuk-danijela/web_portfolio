@@ -1,38 +1,99 @@
+
 <section id="contact">
             <div id="contact-area" style="background-image:url('images/maps.png'); background-size: cover; background-blend-mode: soft-light; background-repeat: no-repeat;">
                 <div class="container">
                     <h2 class="block_title">Contact Me</h2>
-                    <div class="row">
-                        <div class="col-xs-12">
-                        </div>
-                      
-                        <div class="col-sm-6">
-                            <h2 class="con-title">Send me a message</h2>
-                            <form role="form">
-                              <div class="form-group">
-                                <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
-                              </div>
-                              <div class="form-group">
-                                <input type="email" class="form-control" id="your_email" placeholder="Enter your email">
-                              </div>
-                              <div class="form-group">
-                                <textarea name="InputMessage" id="user_message" placeholder="Enter your message" class="form-control" rows="5" required></textarea>
-                              </div>
+                    
+                    <!--Section: Contact v.2-->
+<section class="mb-4">
 
-                              <button type="submit" class="btn medium">Submit</button>
-                            </form>   
-                        </div>
+    <div class="row">
 
-                          <div class="col-sm-6">
-                            <div class="moreDetails form-control">
-                                <ul class="address">
-                                    <li><i class="pe-7s-map-marker"></i><span>Belgrade, Serbia</span></li>
-                                    <li><i class="pe-7s-mail"></i><span>danijela.b.cuk@gmail.com</span></li>
-                                    <li><i class="pe-7s-phone"></i><span>+381 62 551 410</span></li>
-                                </ul>
-                            </div>
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
                         </div>
                     </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a id="submit_btn" class="btn btn-primary" onclick="validateForm()">Submit</a>
+            </div>
+            <div id="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Belgrade, Serbia</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+381 62 551 410</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>danijela.b.cuk@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
                 </div><!-- container -->
             </div><!-- contact-area -->
             <div id="social">
@@ -50,3 +111,5 @@
                 </div>
             </div><!-- social -->
         </section><!-- contact -->
+
+    

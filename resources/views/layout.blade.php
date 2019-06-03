@@ -24,7 +24,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/modernizr.js') }}" ></script>
-
+   
 </head>
 
 <body id="body">
@@ -39,15 +39,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <p class="copyright">Copyright ©2019 | All rights reserved 
-</p>
-
+                        <p class="copyright">Copyright © 2019 | All rights reserved </p>
                     </div>
-                   
                 </div>
             </div>
         </footer>
-
         <!-- Necessery scripts -->
         <script src="{{ asset('js/jquery-2.1.3.min.js') }}" ></script>
         <script src="{{ asset('js/bootstrap.min.js') }}" ></script>
@@ -56,5 +52,5 @@
         <script src="{{ asset('js/owl.carousel.js') }}" ></script>
         <script src="{{ asset('js/script.js') }}" ></script>
 
-    </body>
+</body>
 </html>
