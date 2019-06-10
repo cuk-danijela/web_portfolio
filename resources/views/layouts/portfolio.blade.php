@@ -98,6 +98,46 @@
                             </figcaption>
                         </figure>
                     </div>
+                </div>
+                <div class="row port cs-style-3">
+                         <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
+                        <figure style="background:url('./images/portfolio/fashion.jpg'); background-size:cover; background-position: center;">
+                            <figcaption>
+                                <h4>Fashion Blog</h4>
+                                <span>Jacob Cummings</span>
+                                <a href="#" class="button" >Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv ">
+                        <figure style="background:url('./images/portfolio/wine.jpg'); background-size:cover; background-position: center;">
+                            <figcaption>
+                                <h4>Wine Festival</h4>
+                                <span>Jacob Cummings</span>
+                                <a href="#" class="button" >Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
+                        <figure>
+                            <img src="images/portfolio/cafe.jpg" alt="img01">
+                            <figcaption>
+                                <h4>Cuppfull Cafe</h4>
+                                <span>Jacob Cummings</span>
+                                <a href="#" class="button" >Take a look</a>
+                            </figcaption> 
+                        </figure>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
+                        <figure>
+                            <img src="images/portfolio/cafe.jpg" alt="img02">
+                            <figcaption>
+                                <h4>Amazing Space</h4>
+                                <span>Jacob Cummings</span>
+                                <a href="#" class="button" >Take a look</a>
+                            </figcaption>
+                        </figure>
+                    </div>
                     
                     {{-- <div class="col-xs-12">
                         <div class="btn-center"><a href="#" class="big button">View all</a></div>

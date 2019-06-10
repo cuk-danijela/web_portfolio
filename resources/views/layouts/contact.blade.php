@@ -66,7 +66,9 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a id="submit_btn" class="btn btn-primary" onclick="validateForm()">Submit</a>
+                <div class="button-border">
+                    <a id="submit_btn" data-scroll="" href="#contact" onclick="validateForm()" class="scrollToContent">
+                        <button class="blue_button">Send message</button></a></div>
             </div>
             <div id="status"></div>
         </div>
@@ -76,15 +78,15 @@
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Belgrade, Serbia</p>
+                    <p class="contact_paragraph">Belgrade, Serbia</p>
                 </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+381 62 551 410</p>
+                    <p class="contact_paragraph">+381 62 551 410</p>
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>danijela.b.cuk@gmail.com</p>
+                    <p class="contact_paragraph">danijela.b.cuk@gmail.com</p>
                 </li>
             </ul>
         </div>
