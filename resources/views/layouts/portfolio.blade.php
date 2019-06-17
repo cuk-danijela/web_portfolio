@@ -1,18 +1,17 @@
+
 <section id="portfolio" class="portfolio-area">
         
             <div class="container">
-                <h2 class="block_title">My Works</h2>
+                <h2 class="block_title works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">My works</h2>
                      <div class="row port cs-style-3">
-               
                   <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <!-- Project Menu -->
                     <div id="myBtnContainer" class="works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
                         <ul>
-                            <li class="wow fadeIn btn active" onclick="filterSelection('all')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-tasks"></i> All Works</li>
-                            <li class="wow fadeIn btn" onclick="filterSelection('design')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-laptop"></i> WEB DESIGN</li>
-                            <li class="wow fadeIn btn" onclick="filterSelection('web')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
-                            {{-- <li class="wow fadeIn btn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li> --}}
+                            <li class="btn active hvr-pulse-shrink" onclick="filterSelection('all')"><i class="fas fa-tasks"></i> All Works</li>
+                            <li class="hvr-pulse-shrink btn" onclick="filterSelection('design')"><i class="fas fa-laptop"></i> WEB DESIGN</li>
+                            <li class="hvr-pulse-shrink btn" onclick="filterSelection('web')"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
                         </ul>
                     </div>
                     <!--/ End Project Nav -->
@@ -145,3 +144,5 @@
                 </div>
             </div><!-- container -->
         </section><!-- portfolio -->
+       
+

@@ -21,6 +21,7 @@
     <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
     <script src="{{ asset('js/modernizr.js') }}" ></script>
@@ -30,7 +31,7 @@
 <body id="body">
 
     <!-- Back to top button -->
-    <a data-scroll href="#" class="scrollToContent animated pulse" id="back-to-top" title="Back to top"><i class="fas fa-2x fa-angle-double-up"></i></a>
+    <a data-scroll href="#" class="scrollToContent hvr-pulse-shrink" id="back-to-top" title="Back to top"><i class="fas fa-2x fa-angle-double-up"></i></a>
 
         @yield('content')
 

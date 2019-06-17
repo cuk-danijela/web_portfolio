@@ -2,8 +2,7 @@
 <section id="contact">
             <div id="contact-area" style="background-image:url('images/maps.png'); background-size: cover; background-blend-mode: soft-light; background-repeat: no-repeat;">
                 <div class="container">
-                    <h2 class="block_title">Contact Me</h2>
-                    
+                <h2 class="block_title works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">Contact me</h2>                    
                     <!--Section: Contact v.2-->
 <section class="mb-4">
 
@@ -104,9 +103,9 @@
                         <div class="col-xs-12">
                             <ul class="scoialinks">
                                 <li class="normal-txt">Find me on</li>
-                                <li class="social-icons"><a href="https://www.facebook.com/dandza18" target="_blank"><i style="color: white" class="fab fa-4x fa-facebook-square"></i></a></li>
-                                <li class="social-icons"><a href="https://www.linkedin.com/in/danijela-cuk-1990/" target="_blank"><i style="color: white" class="fab fa-4x fa-linkedin"></i></a></li>
-                                <li class="social-icons"><a href="https://github.com/cuk-danijela" target="_blank"><i style="color: white" class="fab fa-4x fa-github-square"></i></a></li>
+                                <li class="social-icons"><a href="https://www.facebook.com/dandza18" class="hvr-pulse-shrink" target="_blank"><i style="color: white" class="fab fa-4x fa-facebook-square"></i></a></li>
+                                <li class="social-icons"><a href="https://www.linkedin.com/in/danijela-cuk-1990/" class="hvr-pulse-shrink" target="_blank"><i style="color: white" class="fab fa-4x fa-linkedin"></i></a></li>
+                                <li class="social-icons"><a href="https://github.com/cuk-danijela" class="hvr-pulse-shrink" target="_blank"><i style="color: white" class="fab fa-4x fa-github-square"></i></a></li>
                             </ul>
                         </div>
                     </div>

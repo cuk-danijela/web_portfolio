@@ -42,15 +42,25 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #e66f69;
+	color: rgb(199, 37, 78);
 	transition: 0.4s ease all;
 	outline: none;
 }
 a:hover,a:active,a:focus{
 	text-decoration: none;
-	color: #e66f69;
+	color: rgb(199, 37, 78);
 	opacity: 0.9;
 	outline: none;
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:active,
+.dropdown-menu a:focus {
+    text-decoration: none;
+    color: rgb(199, 37, 78);
+    opacity: 0.9;
+    outline: none;
+    padding:10px;
+    background-color:whitesmoke;
 }
 .btn {
     color: #333;
@@ -67,7 +77,7 @@ a:hover,a:active,a:focus{
 .works-menu ul li.active,
 .works-menu ul li:hover {
     color: #fff;
-    background: #e66f69;
+    background: rgb(199, 37, 78);
 }
 
 
@@ -284,7 +294,7 @@ header{
     transition: all 0.3s ease;
 }
 .service-wrap:hover i {
-    color: #e66f69;
+    color: rgb(199, 37, 78);
 }
 .service-wrap p {
     padding: 0px 40px;
@@ -336,7 +346,7 @@ header{
 	left: 0;
 	padding: 20px;
 	background: #111;
-	color: #e66f69;
+	color: rgb(199, 37, 78);
 }
 
 .port figcaption h4 {
@@ -495,7 +505,7 @@ header{
     width: 0px;
     position: relative;
     height: 50px;
-    background-color: #e66f69a6;
+    background-color: rgb(199, 37, 78)a6;
 
 }
 
@@ -514,7 +524,7 @@ header{
     line-height: 40px;
     font-size: 20px;
     font-weight: 700;
-    color: #e66f69;
+    color: rgb(199, 37, 78);
 }
 
 .skillst10 .skillbar:before {
@@ -534,7 +544,7 @@ header{
     left: 0;
     bottom: 0;
     content: "";
-    background-color: #e66f69;
+    background-color: rgb(199, 37, 78);
 }
 
 .skillst10 .count-bar:after {
@@ -544,7 +554,7 @@ header{
     content: "";
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 8px solid #e66f69;
+    border-bottom: 8px solid rgb(199, 37, 78);
 }
 
 
@@ -627,7 +637,7 @@ margin: 80px 0px 40px 0px;
 }
 /* -------------------------------------- */
 .coral_button {
-    background-color: #e66f69;
+    background-color: rgb(199, 37, 78);
     border: none;
     color: #ffffff;
     outline: none;
@@ -743,7 +753,7 @@ margin: 80px 0px 40px 0px;
 /*Social media links*/
 
 #social {
-    background-color: rgb(230, 111, 105) !important;
+    background-color: rgb(199, 37, 78) !important;
     padding: 30px 0px 30px 0px;
     position: relative;
 }
@@ -815,12 +825,12 @@ footer {
     text-align: right;
 }
 .designed a:hover {
-    color: #e66f69;
+    color: rgb(199, 37, 78);
 }
 
 #page_up {
     display: inline-block;
-    background-color: #e66f69;
+    background-color: rgb(199, 37, 78);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -875,7 +885,7 @@ footer {
 }
 
 #back-to-top:hover {
-    background: red;
+    background: #a94442c7;
 }
 
 #back-to-top.show {

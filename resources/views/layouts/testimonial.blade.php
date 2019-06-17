@@ -1,6 +1,6 @@
 <section id="testimonial" class="testimonial-area exp">
             <div class="container">
-                <h2 class="block_title">About Me</h2>
+                <h2 class="block_title works-menu wow fadeInUp text-center" data-wow-duration="0.8s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">About Me</h2>
                 <div class="row welcome_inner">
         			<div class="col-lg-6">
         				<div class="welcome_text">

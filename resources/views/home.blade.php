@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-xs-6">
                         <div class="nav">
-                            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
+                            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu hvr-pulse-shrink"></i></a>
                              <div class="dropdown-menu">
                                  <div class="arrow-up"></div>
                                  <ul>
