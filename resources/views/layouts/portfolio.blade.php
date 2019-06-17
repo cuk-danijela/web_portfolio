@@ -12,7 +12,7 @@
                             <li class="wow fadeIn btn active" onclick="filterSelection('all')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-tasks"></i> All Works</li>
                             <li class="wow fadeIn btn" onclick="filterSelection('design')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-laptop"></i> WEB DESIGN</li>
                             <li class="wow fadeIn btn" onclick="filterSelection('web')" style="visibility: visible; animation-name: fadeIn;"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
-                            <li class="wow fadeIn btn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li>
+                            {{-- <li class="wow fadeIn btn" onclick="filterSelection('photoshop')" style="visibility: visible; animation-name: fadeIn;"><i class="fab fa-adobe"></i> PHOTOSHOP</li> --}}
                         </ul>
                     </div>
                     <!--/ End Project Nav -->
@@ -45,7 +45,7 @@
                             <figcaption>
                                 <h4>Watch Shop</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption> 
                         </figure>
                     </div>
@@ -54,7 +54,7 @@
                             <figcaption>
                                 <h4>Curiculum Vitae</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -65,7 +65,7 @@
                             <figcaption>
                                 <h4>Book App</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -74,7 +74,7 @@
                             <figcaption>
                                 <h4>Dave's Burgers</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -84,7 +84,7 @@
                             <figcaption>
                                 <h4>Bead Art</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption> 
                         </figure>
                     </div>
@@ -94,7 +94,7 @@
                             <figcaption>
                                 <h4>Amazing Space</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -105,7 +105,7 @@
                             <figcaption>
                                 <h4>Fashion Blog</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -114,7 +114,7 @@
                             <figcaption>
                                 <h4>Wine Festival</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -124,7 +124,7 @@
                             <figcaption>
                                 <h4>Cuppfull Cafe</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption> 
                         </figure>
                     </div>
@@ -134,7 +134,7 @@
                             <figcaption>
                                 <h4>Amazing Space</h4>
                                 <span>Jacob Cummings</span>
-                                <a href="#" class="button" >Take a look</a>
+                                <a href="#" class="coral_button" >Take a look</a>
                             </figcaption>
                         </figure>
                     </div>

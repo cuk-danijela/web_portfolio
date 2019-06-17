@@ -11,7 +11,7 @@
 	<br/>  
 	                          
     <div class="col-sm-6">
-       <div class="button-border"><button class="button">See my CV</button></div>
+       <div class="button-border"><button class="button"> Download CV</button></div>
         						</div>
         						<div class="col-sm-6">
         						<div class="button-border"><a data-scroll href="#contact" class="scrollToContent animated pulse"><button class="button">Contact me</button></a></div>

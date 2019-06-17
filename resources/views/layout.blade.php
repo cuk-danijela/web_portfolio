@@ -30,7 +30,7 @@
 <body id="body">
 
     <!-- Back to top button -->
-    <a data-scroll href="#" class="scrollToContent animated pulse" id="back-to-top" title="Back to top">&uarr;</a>
+    <a data-scroll href="#" class="scrollToContent animated pulse" id="back-to-top" title="Back to top"><i class="fas fa-2x fa-angle-double-up"></i></a>
 
         @yield('content')
 

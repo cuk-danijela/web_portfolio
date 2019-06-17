@@ -4,13 +4,15 @@
 
        <!-- Header area -->
         <header id="header">
-            <div class="center text-center">
+          <div class="center text-center">
                 <h1 class="bigheadline">Danijela Cuk</h1>
-                <h4 class="subheadline">Frontend Web Developer</h4>
+                <h4 class="subheadline">The FrontEnd Developer</h4>
             </div>
+           
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
             </div>
+            
         </header>
 
         <!-- Navigation area -->

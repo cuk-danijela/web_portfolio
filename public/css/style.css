@@ -124,10 +124,8 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/cool-background.png) no-repeat; 
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% -50px;
+	background: url(../images/me.jpg) no-repeat; 
+	background-position: 100% -50px;
 }
 .center {
     text-align: center;
@@ -216,7 +214,7 @@ header{
     min-width: 240px;
     right: 0;
     left: auto;
-    border: 1px solid #000;
+    border: 1px solid lightgrey;
     box-shadow: none;
     border-radius: 0px;
     margin-top: 5px;
@@ -497,7 +495,7 @@ header{
     width: 0px;
     position: relative;
     height: 50px;
-    background-color: #249292;
+    background-color: #e66f69a6;
 
 }
 
@@ -516,7 +514,7 @@ header{
     line-height: 40px;
     font-size: 20px;
     font-weight: 700;
-    color: #0b7c7c;
+    color: #e66f69;
 }
 
 .skillst10 .skillbar:before {
@@ -536,7 +534,7 @@ header{
     left: 0;
     bottom: 0;
     content: "";
-    background-color: #0d7878;
+    background-color: #e66f69;
 }
 
 .skillst10 .count-bar:after {
@@ -546,7 +544,7 @@ header{
     content: "";
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 8px solid #0d7878;
+    border-bottom: 8px solid #e66f69;
 }
 
 
@@ -589,6 +587,47 @@ margin: 80px 0px 40px 0px;
 }
 .blue_button {
     background-color: rgb(102, 175, 233);
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+}
+
+.blue_button:before,
+.blue_button:after {
+    border: 0 solid transparent;
+    transition: all 0.25s;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+
+.blue_button:before {
+    border-top: 2px solid #66afe9;
+    left: 0px;
+    top: -5px;
+}
+
+.blue_button:after {
+    border-bottom: 2px solid #66afe9;
+    bottom: -5px;
+    right: 0px;
+}
+
+.blue_button:hover {
+    background-color: rgba(102, 175, 233, .6);
+}
+
+.blue_button:hover:before,
+.blue_button:hover:after {
+    height: 100%;
+    width: 100%;
+}
+/* -------------------------------------- */
+.coral_button {
+    background-color: #e66f69;
     border: none;
     color: #ffffff;
     outline: none;
@@ -704,7 +743,7 @@ margin: 80px 0px 40px 0px;
 /*Social media links*/
 
 #social {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+    background-color: rgb(230, 111, 105) !important;
     padding: 30px 0px 30px 0px;
     position: relative;
 }
@@ -817,22 +856,22 @@ footer {
 }
 
 #back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    z-index: 9999;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    line-height: 30px;
-    background: red;
-    color: #444;
-    cursor: pointer;
-    border: 0;
-    border-radius: 2px;
-    text-decoration: none;
-    transition: opacity 0.2s ease-out;
-    opacity: 0;
+       position: fixed;
+       bottom: 40px;
+       right: 40px;
+       z-index: 9999;
+       width: 42px;
+       height: 42px;
+       text-align: center;
+       line-height: 50px;
+       background: lightcoral;
+       color: white;
+       cursor: pointer;
+       border: 0;
+       border-radius: 50%;
+       text-decoration: none;
+       transition: opacity 0.5s ease-out;
+       opacity: 0;
 }
 
 #back-to-top:hover {
@@ -854,10 +893,10 @@ footer {
 		font-size: 3em;
 	}
 	.bigheadline {
-		font-size: 9em;
+		font-size: 8em;
 	}
 	.subheadline {
-		font-size: 4em;
+		font-size: 3.5em;
 	}
 }
 

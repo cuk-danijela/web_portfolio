@@ -104,9 +104,9 @@
                         <div class="col-xs-12">
                             <ul class="scoialinks">
                                 <li class="normal-txt">Find me on</li>
-                                <li class="social-icons"><a href="https://www.facebook.com/dandza18" target="_blank"><i class="fab fa-4x fa-facebook-square findMe"></i></a></li>
-                                <li class="social-icons"><a href="https://www.linkedin.com/in/danijela-cuk-1990/" target="_blank"><i class="fab fa-4x fa-linkedin findMe"></i></a></li>
-                                <li class="social-icons"><a href="https://github.com/cuk-danijela" target="_blank"><i class="fab fa-4x fa-github-square findMe"></i></a></li>
+                                <li class="social-icons"><a href="https://www.facebook.com/dandza18" target="_blank"><i style="color: white" class="fab fa-4x fa-facebook-square"></i></a></li>
+                                <li class="social-icons"><a href="https://www.linkedin.com/in/danijela-cuk-1990/" target="_blank"><i style="color: white" class="fab fa-4x fa-linkedin"></i></a></li>
+                                <li class="social-icons"><a href="https://github.com/cuk-danijela" target="_blank"><i style="color: white" class="fab fa-4x fa-github-square"></i></a></li>
                             </ul>
                         </div>
                     </div>
