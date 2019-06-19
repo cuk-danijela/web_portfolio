@@ -77,7 +77,7 @@ a:hover,a:active,a:focus{
 .works-menu ul li.active,
 .works-menu ul li:hover {
     color: #fff;
-    background: rgb(199, 37, 78);
+    background: rgb(196, 113, 53);
 }
 
 
@@ -134,7 +134,7 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/me.jpg) no-repeat; 
+	background: url(../images/cool-background.png) no-repeat;
 	background-position: 100% -50px;
 }
 .center {
@@ -346,13 +346,13 @@ header{
 	left: 0;
 	padding: 20px;
 	background: #111;
-	color: rgb(199, 37, 78);
+	color: white;
 }
 
 .port figcaption h4 {
 	margin: 10px 0px;
 	padding-bottom: 10px;
-    color: #fff;
+    color: #c47135;
     border-bottom: 1px dashed lightgray;
 }
 
@@ -362,7 +362,6 @@ header{
 	padding: 8px 15px;
 	display: inline-block;
     color: #fff;
-    border: 1px solid white;
 }
 
 .cs-style-3 figure {
@@ -485,7 +484,7 @@ header{
 
 .skillst10 {
     width: 100%;
-    color: #fff;
+    color: #c7254e;
 }
 
 .skillst10 .skillbar {
@@ -505,7 +504,7 @@ header{
     width: 0px;
     position: relative;
     height: 50px;
-    background-color: rgb(199, 37, 78)a6;
+    background-color: rgb(237, 235, 236);
 
 }
 
@@ -645,8 +644,8 @@ margin: 80px 0px 40px 0px;
     position: relative;
 }
 
-.blue_button:before,
-.blue_button:after {
+.coral_button:before,
+.coral_button:after {
     border: 0 solid transparent;
     transition: all 0.25s;
     content: '';
@@ -655,24 +654,24 @@ margin: 80px 0px 40px 0px;
     width: 24px;
 }
 
-.blue_button:before {
-    border-top: 2px solid #66afe9;
+.coral_button:before {
+    border-top: 2px solid rgb(199, 37, 78);
     left: 0px;
     top: -5px;
 }
 
-.blue_button:after {
-    border-bottom: 2px solid #66afe9;
+.coral_button:after {
+    border-bottom: 2px solid rgb(199, 37, 78);
     bottom: -5px;
     right: 0px;
 }
 
-.blue_button:hover {
-    background-color: rgba(102, 175, 233, .6);
+.coral_button:hover {
+    background-color: rgb(199, 37, 78);
 }
 
-.blue_button:hover:before,
-.blue_button:hover:after {
+.coral_button:hover:before,
+.coral_button:hover:after {
     height: 100%;
     width: 100%;
 }
