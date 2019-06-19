@@ -11,8 +11,8 @@
                         <ul>
                             <li class="btn active" onclick="filterSelection('all')"><i class="fas fa-tasks"></i> All Works</li>
                             <li class="btn" onclick="filterSelection('design')"><i class="fas fa-laptop"></i> WEB DESIGN</li>
-                            <li class="btn" onclick="filterSelection('web')"><i class="fas fa-code"></i> FRONTEND DEVELOPMENT</li>
-                            <li class="btn" onclick="filterSelection('web')"><i class="fas fa-code"></i> BACKEND DEVELOPMENT</li>
+                            <li class="btn" onclick="filterSelection('web')"><i class="fas fa-code"></i> WEB DEVELOPMENT</li>
+                            <li class="btn" onclick="filterSelection('web')"><i class="fab fa-wordpress"></i> WORDPRESS DEVELOPMENT</li>
                         </ul>
                     </div>
                     <!--/ End Project Nav -->

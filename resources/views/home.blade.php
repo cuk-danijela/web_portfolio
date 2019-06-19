@@ -4,6 +4,9 @@
 
        <!-- Header area -->
         <header id="header">
+             <div class="center text-center">
+<img src="images/profile-pic.jpg" />
+            </div>
           <div class="center text-center">
                 <h1 class="bigheadline">Danijela Cuk</h1>
                 <h4 class="subheadline">The FrontEnd Developer</h4>
@@ -20,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <div class="logo"><a data-scroll href="#body" class="logo-text"><code>< Danijela Cuk /></code></a></div>
+                        <div class="logo"><span class="logo-text"><code>< Danijela Cuk /></code></span></div>
                     </div>
                     <div class="col-xs-6">
                         <div class="nav">

@@ -134,8 +134,8 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/cool-background.png) no-repeat;
-	background-position: 100% -50px;
+	background: url(../images/parallax.jpg) no-repeat;
+	/* background-position: 100% -50px; */
 }
 .center {
     text-align: center;
@@ -558,7 +558,7 @@ header{
 
 
 #testimonial {
-margin: 80px 0px 40px 0px;
+margin: 40px 0px 40px 0px;
 }
 
 .testimonila-block {
