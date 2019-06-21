@@ -26,7 +26,11 @@
                         <figure style="background:url('./images/portfolio/boat.jpg'); background-size:cover; background-position: center;">
                             <figcaption>
                                 <h4>Cruising Dubrovnik</h4>
-                                <span>Boats, Sailing and Water Tours</span>
+                                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">BOOTSTRAP</span>
+                                <span class="tag">JQUERY</span><span class="tag">JAVASCRIPT</span><span class="tag">PHP</span>
+
+
+
                                 <a href="#" class="button">Take a look</a>
                             </figcaption>
                         </figure>
@@ -130,7 +134,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 item-space web filterDiv">
                         <figure>
-                            <img src="images/portfolio/cafe.jpg" alt="img02">
+                            <img src="images/portfolio/pet-shop.jpg" alt="img02">
                             <figcaption>
                                 <h4>Amazing Space</h4>
                                 <span>Jacob Cummings</span>

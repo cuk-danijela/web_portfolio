@@ -11,7 +11,9 @@
 	<br/>  
 	                          
     <div class="col-sm-6">
-       <div class="button-border"> <a href=""><button class="coral_button"> Download CV</button></a></div> </div>
+       <div class="button-border"> 
+         <a href="Cuk-Danijela-CV.pdf" download="CukDanijelaCV"><button class="coral_button"> Download CV</button></a>
+         </div> </div>
     <div class="col-sm-6">
        <div class="button-border"><a data-scroll href="#contact" class="scrollToContent animated pulse"><button class="coral_button">Contact me</button></a></div>
     </div>

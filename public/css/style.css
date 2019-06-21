@@ -400,7 +400,8 @@ header{
 
 .no-touch .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
-	opacity: 1;
+    opacity: 1;
+    word-break: break-word;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
@@ -456,7 +457,13 @@ header{
     width: 100%;
 }
 
-
+.tag{
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+    margin: 0px 5px;
+}
 .btn-center {
     display: block;
     padding: 80px 0px 60px 0px;

@@ -4,9 +4,9 @@
 
        <!-- Header area -->
         <header id="header">
-             <div class="center text-center">
+             {{-- <div class="center text-center">
 <img src="images/profile-pic.jpg" />
-            </div>
+            </div> --}}
           <div class="center text-center">
                 <h1 class="bigheadline">Danijela Cuk</h1>
                 <h4 class="subheadline">The FrontEnd Developer</h4>
