@@ -36,15 +36,67 @@
         @yield('content')
 
 <!-- Footer Area -->
-        <footer>
+<div class="footer">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p class="copyright">Copyright © 2019 | All rights reserved </p>
-                    </div>
+                <div class="col-md-3">
+                    <h3>Bass</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Install</a>
+                        </li>
+                        <li>
+                            <a href="#">Mobile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3>About</h3>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                        </li>
+                        <li>
+                            <a href="#">Jobs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3>Support</h3>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Get Started</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <h3>Community</h3>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#">Google+</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+          
+            <p class="copyright">Copyright © 2019 | All rights reserved </p>
+        </div>
+        
+        
         <!-- Necessery scripts -->
         <script src="{{ asset('js/jquery-2.1.3.min.js') }}" ></script>
         <script src="{{ asset('js/bootstrap.min.js') }}" ></script>
