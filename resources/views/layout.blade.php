@@ -8,12 +8,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Bass') }}</title>
 
     <!-- Fonts -->
     <link href="{{ asset('font_icon/css/pe-icon-7-stroke.css') }}" rel="stylesheet">
     <link href="{{ asset('font_icon/css/helper.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

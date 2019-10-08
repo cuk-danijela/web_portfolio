@@ -61,6 +61,7 @@
         </section>
         
         @include('layouts/services')
+        @include('layouts/section')
         @include('layouts/download')
 
 @endsection
