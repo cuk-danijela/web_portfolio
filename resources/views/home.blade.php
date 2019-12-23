@@ -10,10 +10,10 @@
                         <div class="col-md-9">
                             <ul class="pull-right">
                                 <li>
-                                    <a href="#">Features</a>
+                                    <a class="btn btn-default button" href="#">Sign Up</a>
                                 </li>
                                 <li>
-                                    <a class="btn btn-default button" href="#">Download</a>
+                                    <a href="#">Login</a>
                                 </li>
                             </ul>
                         </div>
@@ -60,7 +60,6 @@
             </div>            
         </section>
         
-        @include('layouts/services')
         @include('layouts/section')
         @include('layouts/download')
 

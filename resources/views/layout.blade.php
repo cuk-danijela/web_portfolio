@@ -92,8 +92,8 @@
                     </ul>
                 </div>
             </div>
-          
-            <p class="copyright">Copyright © 2019 | All rights reserved </p>
+      
+            <p class="copyright container">Copyright © 2019 | All rights reserved </p>
         </div>
         
         
