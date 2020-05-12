@@ -13,7 +13,7 @@
         "axios": "^0.18",
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
-        "jquery": "^3.2",
+        "jquery": "^3.5.1",
         "laravel-mix": "^4.0.7",
         "lodash": "^4.17.13",
         "popper.js": "^1.12",
@@ -23,6 +23,9 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
+        "acorn": "^7.2.0",
+        "kind-of": "^6.0.3",
+        "minimist": "^1.2.5",
         "serialize-javascript": "^2.1.2"
     }
 }
